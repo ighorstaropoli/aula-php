@@ -1,0 +1,81 @@
+body{
+    margin:10px;
+    padding:0;
+    line-height: 2em;
+    font-family:"Noto Sans Devanagari";
+    font-size: 24px;
+    background-color: gray;
+}
+label{
+    width: 100px;
+    float: left;
+    font-weight: bold;
+}
+
+.legend {
+    color: white;
+    text-align: center;
+}
+
+.tabela {
+    color: white;
+}
+.input {
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+.botao {
+    width: 308px;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+table {
+    border: solid 0px;
+}
+table td {
+    border: solid 0px;
+    width: auto;
+    padding: 10px;
+}
+#centraliza{
+    width: 370px;
+    height: 150px;
+    left: 50%;66
+    margin: -120px 0 0 -260px;
+    padding:10px;
+    position: absolute;
+    top: 40%;
+}
+.erro{
+    color: red;
+    font-size: 30px;
+}
+.active {
+    background-color: #4CAF50;
+}
+.sair {
+    background:transparent url(../imagens/botao_sair.png) no-repeat left;
+    padding: 18px;
+}
